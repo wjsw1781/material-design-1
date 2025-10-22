@@ -11,6 +11,5 @@ class MyPageForm(MyPageFormTemplate):
         title = properties.get('title', '默认标题')
 
         # 使用参数初始化组件
-        self.image_1.source = image_url
 
         self.button_1.text = title
