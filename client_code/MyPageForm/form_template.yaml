@@ -1,0 +1,27 @@
+components:
+- components:
+  - components:
+    - layout_properties: {grid_position: 'YUTQQH,MXZOOK'}
+      name: link_1
+      properties: {text: 手动阀手动阀手动阀}
+      type: Link
+    layout_properties: {grid_position: 'QKMHHY,LEXHDK'}
+    name: card_1
+    properties: {role: card}
+    type: ColumnPanel
+  - layout_properties: {grid_position: 'QTTDSM,JCJMWZ'}
+    name: button_1
+    properties: {text: button_1}
+    type: Button
+  layout_properties: {slot: default}
+  name: content_panel
+  properties: {}
+  type: ColumnPanel
+- layout_properties: {slot: nav-right}
+  name: navbar_links
+  properties: {}
+  type: FlowPanel
+container:
+  properties: {html: '@theme:standard-page.html'}
+  type: HtmlTemplate
+is_package: true

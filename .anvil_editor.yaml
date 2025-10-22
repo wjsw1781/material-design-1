@@ -3,7 +3,8 @@ unique_ids:
     standard-page.html: DYLYRTWGMX2CUQUNGVZV2U7GIO6TIDQU
     theme.css: ZKAHJJC7PD5WWGU46IFABZMMZ6EOBCFH
   forms:
-    Form1: S76LQ2G6CRIO7S2JI3EHDUZARKPSS3U6
+    MyPageForm: S76LQ2G6CRIO7S2JI3EHDUZARKPSS3U6
   modules: {}
   scripts: {}
-  server_modules: {}
+  server_modules:
+    ServerModule1: '1761155829818451232306200.1683'
