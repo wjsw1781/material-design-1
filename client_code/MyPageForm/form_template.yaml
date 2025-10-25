@@ -13,6 +13,14 @@ components:
     name: button_1
     properties: {text: button_1}
     type: Button
+  - layout_properties: {grid_position: 'EIZAFQ,LEEYRL'}
+    name: card_2
+    properties: {role: card}
+    type: ColumnPanel
+  - layout_properties: {grid_position: 'EIZAFQ,CGORIA'}
+    name: card_3
+    properties: {role: card}
+    type: ColumnPanel
   layout_properties: {slot: default}
   name: content_panel
   properties: {}
